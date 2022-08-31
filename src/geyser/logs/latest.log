@@ -1,0 +1,10 @@
+[18:19:56.185 main/INFO] ******************************************
+[18:19:56.190 main/INFO] 
+[18:19:56.192 main/INFO] Loading Geyser version 2.0.7-SNAPSHOT (git-master-670308e)
+[18:19:56.193 main/INFO] 
+[18:19:56.193 main/INFO] ******************************************
+[18:19:59.448 main/INFO] Started Geyser on 0.0.0.0:19132
+[18:19:59.455 main/INFO] Done (3.275s)! Run /geyser help for help!
+[18:19:59.456 main/WARN] Geyser doesn't translate Bedrock movements perfectly! Using Geyser in servers that have an anticheat could get you banned.
+[18:20:11.625 main/INFO] Shutting down Geyser.
+[18:20:11.633 main/INFO] Geyser shutdown successfully.

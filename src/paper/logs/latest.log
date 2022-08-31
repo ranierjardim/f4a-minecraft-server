@@ -1,50 +1,47 @@
-[21:27:03] [ServerMain/INFO]: Building unoptimized datafixer
-[21:27:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:27:04] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[21:27:06] [ServerMain/INFO]: Loaded 7 recipes
-[21:27:07] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[21:27:07] [Server thread/INFO]: Loading properties
-[21:27:07] [Server thread/INFO]: This server is running Paper version git-Paper-134 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: aabf676)
-[21:27:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:27:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:27:08] [Server thread/INFO]: Default game type: SURVIVAL
-[21:27:08] [Server thread/INFO]: Generating keypair
-[21:27:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:27:08] [Server thread/INFO]: Using default channel type
-[21:27:08] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[21:27:08] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:27:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:27:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:27:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:27:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:27:08] [Server thread/INFO]: Preparing level "world"
-[21:27:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:27:26] [Server thread/INFO]: Time elapsed: 493 ms
-[21:27:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:27:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[21:27:27] [Server thread/INFO]: Time elapsed: 526 ms
-[21:27:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:27:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[21:27:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[21:27:28] [Server thread/INFO]: Time elapsed: 1037 ms
-[21:27:28] [Server thread/INFO]: Running delayed init tasks
-[21:27:28] [Server thread/INFO]: Done (20.819s)! For help, type "help"
-[21:27:28] [Server thread/INFO]: Timings Reset
-[21:29:50] [User Authenticator #1/INFO]: UUID of player ranier is 8324ffc1-a11e-3bab-bd65-72b59e55f9c9
-[21:29:50] [Server thread/INFO]: ranier joined the game
-[21:29:50] [Server thread/INFO]: ranier[/127.0.0.1:63735] logged in with entity id 400 at ([world]-5.5, 120.0, 1.5)
-[21:30:36] [Server thread/INFO]: ranier lost connection: Disconnected
-[21:30:36] [Server thread/INFO]: ranier left the game
-[21:30:45] [Server thread/INFO]: Stopping server
-[21:30:45] [Server thread/INFO]: Saving players
-[21:30:45] [Server thread/INFO]: Saving worlds
-[21:30:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:30:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:30:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:30:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:30:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:30:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:30:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:30:49] [Server thread/INFO]: Flushing Chunk IO
-[21:30:49] [Server thread/INFO]: Closing Thread Pool
-[21:30:49] [Server thread/INFO]: Closing Server
+[18:29:28] [ServerMain/INFO]: Building unoptimized datafixer
+[18:29:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:29:35] [ServerMain/INFO]: Loaded 7 recipes
+[18:29:36] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[18:29:36] [Server thread/WARN]: ****************************
+[18:29:36] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[18:29:36] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[18:29:36] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[18:29:36] [Server thread/WARN]: ****************************
+[18:29:36] [Server thread/INFO]: Loading properties
+[18:29:36] [Server thread/INFO]: This server is running Paper version git-Paper-134 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: aabf676)
+[18:29:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:29:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:29:37] [Server thread/INFO]: Default game type: SURVIVAL
+[18:29:37] [Server thread/INFO]: Generating keypair
+[18:29:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:29:37] [Server thread/INFO]: Using epoll channel type
+[18:29:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:29:37] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[18:29:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:29:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:29:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:29:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:29:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:29:38] [Server thread/INFO]: Preparing level "world"
+[18:29:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:29:39] [Server thread/INFO]: Time elapsed: 324 ms
+[18:29:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:29:39] [Server thread/INFO]: Time elapsed: 169 ms
+[18:29:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:29:39] [Server thread/INFO]: Time elapsed: 130 ms
+[18:29:39] [Server thread/INFO]: Running delayed init tasks
+[18:29:39] [Server thread/INFO]: Done (2.968s)! For help, type "help"
+[18:29:39] [Server thread/INFO]: Timings Reset
+[18:29:45] [Server thread/INFO]: Stopping server
+[18:29:45] [Server thread/INFO]: Saving players
+[18:29:45] [Server thread/INFO]: Saving worlds
+[18:29:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:29:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:29:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:29:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:29:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:29:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:29:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:29:49] [Server thread/INFO]: Flushing Chunk IO
+[18:29:49] [Server thread/INFO]: Closing Thread Pool
+[18:29:52] [Server thread/INFO]: Closing Server
